@@ -28,7 +28,7 @@ services:
     networks:
       - listmonk
     environment:
-      - TZ=America/New_York
+      - TZ=Europe/London
     volumes:
       - ./config.toml:/listmonk/config.toml
       - ./uploads:/listmonk/uploads
