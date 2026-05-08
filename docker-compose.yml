@@ -28,7 +28,7 @@ services:
     networks:
       - listmonk
     environment:
-      - TZ=Etc/UTC
+      - TZ=America/New_York
     volumes:
       - ./config.toml:/listmonk/config.toml
       - ./uploads:/listmonk/uploads
